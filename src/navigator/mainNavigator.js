@@ -8,7 +8,6 @@ import SideMenu from './sideMenu';
 import MessengerNavigator from '../features/Messenger/navigator';
 import TutorialNavigator from '../features/Tutorial/navigator';
 import MapsNavigator from '../features/Maps/navigator';
-import CameraNavigator from '../features/Camera/navigator';
 import EmailAuthNavigator from '../features/EmailAuth/navigator';
 
 /**
@@ -23,7 +22,6 @@ const AppNavigator = {
 Messenger: { screen: MessengerNavigator },
 Tutorial: { screen: TutorialNavigator },
 Maps: { screen: MapsNavigator },
-Camera: { screen: CameraNavigator },
 EmailAuth: { screen: EmailAuthNavigator },
 
     /** new navigators can be added here */
